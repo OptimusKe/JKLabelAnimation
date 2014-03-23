@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "JKNeonlampView.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
+    JKNeonlampView* lampView = [[JKNeonlampView alloc] initWithFrame:CGRectMake(0, 0, 200, 80)];
+    lampView.center = self.view.center;
+    [self.view addSubview:lampView];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

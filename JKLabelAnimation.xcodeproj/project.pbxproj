@@ -21,6 +21,7 @@
 		049E674D18DEECE700C61C2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049E672F18DEECE700C61C2F /* UIKit.framework */; };
 		049E675518DEECE700C61C2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 049E675318DEECE700C61C2F /* InfoPlist.strings */; };
 		049E675718DEECE700C61C2F /* JKLabelAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E675618DEECE700C61C2F /* JKLabelAnimationTests.m */; };
+		049E676318DEF12700C61C2F /* JKNeonlampView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E676218DEF12700C61C2F /* JKNeonlampView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		049E675218DEECE700C61C2F /* JKLabelAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKLabelAnimationTests-Info.plist"; sourceTree = "<group>"; };
 		049E675418DEECE700C61C2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		049E675618DEECE700C61C2F /* JKLabelAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKLabelAnimationTests.m; sourceTree = "<group>"; };
+		049E676118DEF12700C61C2F /* JKNeonlampView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKNeonlampView.h; path = JKNeonlampView/JKNeonlampView.h; sourceTree = SOURCE_ROOT; };
+		049E676218DEF12700C61C2F /* JKNeonlampView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKNeonlampView.m; path = JKNeonlampView/JKNeonlampView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		049E673118DEECE700C61C2F /* JKLabelAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				049E676018DEF10100C61C2F /* JKNeonlampView */,
 				049E673A18DEECE700C61C2F /* AppDelegate.h */,
 				049E673B18DEECE700C61C2F /* AppDelegate.m */,
 				049E673D18DEECE700C61C2F /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				049E675318DEECE700C61C2F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		049E676018DEF10100C61C2F /* JKNeonlampView */ = {
+			isa = PBXGroup;
+			children = (
+				049E676118DEF12700C61C2F /* JKNeonlampView.h */,
+				049E676218DEF12700C61C2F /* JKNeonlampView.m */,
+			);
+			path = JKNeonlampView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				049E674218DEECE700C61C2F /* ViewController.m in Sources */,
+				049E676318DEF12700C61C2F /* JKNeonlampView.m in Sources */,
 				049E673C18DEECE700C61C2F /* AppDelegate.m in Sources */,
 				049E673818DEECE700C61C2F /* main.m in Sources */,
 			);
